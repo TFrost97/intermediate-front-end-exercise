@@ -1,0 +1,107 @@
+body {
+  font-size: 10px;
+  font-family: sans-serif;
+}
+
+.form-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -ms-flex-line-pack: justify;
+      align-content: space-between;
+  -ms-flex-preferred-size: 40%;
+      flex-basis: 40%;
+  -webkit-box-shadow: 0 0 .2rem .1rem gray;
+          box-shadow: 0 0 .2rem .1rem gray;
+  padding: 1rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  background-color: lightblue;
+}
+
+.form__title {
+  -ms-flex-preferred-size: 90%;
+      flex-basis: 90%;
+  font-size: 2rem;
+  margin-bottom: 3rem;
+}
+
+.form__input {
+  -ms-flex-preferred-size: 45%;
+      flex-basis: 45%;
+  margin-bottom: .5rem;
+  font-size: 1.6rem;
+  padding: .5rem 0;
+}
+
+.form__button {
+  font-size: 1.6rem;
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+  padding: .5rem 0;
+  margin: 0 5rem 1rem 5rem;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  background-color: white;
+  border: .1rem solid black;
+}
+
+.form__button:hover {
+  background-color: black;
+  color: white;
+}
+
+.result, .content, .footer {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.content {
+  -webkit-box-shadow: 0 0 .2rem 1rem #ddd;
+          box-shadow: 0 0 .2rem 1rem #ddd;
+}
+
+.footer {
+  background-color: black;
+  color: white;
+  padding: 1rem;
+  width: 60vw;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.result {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  gap: 3rem;
+  font-size: 20px;
+  margin-bottom: 2rem;
+}
+
+.result__info {
+  text-align: center;
+  grid-column: 1/-1;
+}
+
+.result__item {
+  border: .1rem solid gray;
+}
+/*# sourceMappingURL=main.css.map */
