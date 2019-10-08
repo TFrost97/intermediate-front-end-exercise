@@ -7,7 +7,7 @@ html {
 }
 
 body {
-    background-color: purple;
+    max-width: 1000px;;
 }
 
 section {
@@ -18,4 +18,9 @@ section {
 section p {
     max-width: 75%;
     margin: 16px auto;
+}
+
+.img {
+    max-width: 900px;
+    max-height: 300px;
 }
