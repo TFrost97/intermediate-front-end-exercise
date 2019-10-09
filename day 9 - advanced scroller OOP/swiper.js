@@ -45,10 +45,10 @@ class Swiper {
         } else {
             // y axis
             if (diffY > 0) {
-                // swipe down
+                // swipe up
                 document.dispatchEvent(this.events.swipeUp);
             } else {
-                // swipe up
+                // swipe down
                 document.dispatchEvent(this.events.swipeDown);
             }
         }
